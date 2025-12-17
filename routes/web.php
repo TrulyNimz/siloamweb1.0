@@ -19,13 +19,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');;
 Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/school/admission', [HomeController::class, 'admission'])->name('school.admission');
 Route::get('/academic/faqs', [HomeController::class, 'faqs'])->name('academic.faqs');
 Route::get('/academic/academic', [AcademicController::class, 'academic'])->name('academic.academic');
-Route::get('/school/pptt', [AcademicController::class, 'pptt'])->name('school.pptt');
-Route::get('/school/cna', [AcademicController::class, 'cna'])->name('school.cna');
-Route::get('/school/orthopedics',[AcademicController::class, 'orthopedics'])->name('school.orthopedics');
+Route::get('/academic/pptt', [AcademicController::class, 'pptt'])->name('academic.pptt');
+Route::get('/academic/cna', [AcademicController::class, 'cna'])->name('academic.cna');
+Route::get('/academic/orthopedics',[AcademicController::class, 'orthopedics'])->name('academic.orthopedics');
 Route::get('/academic/programs', [AcademicController::class, 'programs'])->name('academic.programs');
-Route::get('/school/packages', [AcademicController::class, 'packages'])->name('school.packages');
+Route::get('/academic/packages', [AcademicController::class, 'packages'])->name('academic.packages');
+Route::get('/school/dean', [SchoolController::class, 'dean'])->name('school.dean');
+Route::get('/school/team', [HomeController::class, 'team'])->name('school.team');
 // show form
 Route::get('/academic/application', [ApplicationController::class, 'create'])->name('academic.application');
 // handle form submission

@@ -22,7 +22,14 @@ class HomeController extends Controller
     {
         return view('academic.faqs');
     }
-
+        public function admission()
+    {
+        return view('school.admission');
+    }
+        public function team()
+        {
+            return view('school.team');
+        }
     /**
      * Show the form for creating a new resource.
      */

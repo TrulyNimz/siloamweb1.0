@@ -6,8 +6,9 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-  <div class="class-name text-start">
-     <h1 class="class-name mb-2 mt-5 text-capitalize text-center">About Us</h1>
+ <link rel="stylesheet" href="{{ asset('assets/css') }}">
+ <div class="class-name text-start">
+     <h1 class="class-name mb-2 text-capitalize text-center">About Us</h1>
       <span style="display:block; width:60px; height:2px; background:#0dcaf0; margin:5px auto 0;"></span>
     <h2 class="class-name mb-2 mt-5 text-capitalize text-center">welcome to siloam medical, tehnical, and commercial training college.</h2>
         <span style="display:block; width:200px; height:2px; background:#0dcaf0; margin:5px auto 0;"></span>

@@ -8,7 +8,7 @@ class AcademicController extends Controller
 {
       public function pptt()
     {
-        return view('school.pptt');
+        return view('academic.pptt');
     }
      public function academic()
     {
@@ -16,7 +16,7 @@ class AcademicController extends Controller
     }
       public function cna()
     {
-        return view('school.cna');
+        return view('academic.cna');
     }
     public function programs()
     {
@@ -24,10 +24,10 @@ class AcademicController extends Controller
     }
     public function orthopedics()
     {
-        return view('school.orthopedics');
+        return view('academic.orthopedics');
     }
     public function packages()
     {
-        return view('school.packages');
+        return view('academic.packages');
     }
 }

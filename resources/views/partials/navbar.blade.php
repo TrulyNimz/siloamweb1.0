@@ -17,17 +17,16 @@
     <!-- Left side: Logo + Nav -->
     <div class="d-flex align-items-center fw-light fs-4">
       <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
-        <img src="{{ asset('assets/images/33.png') }}" 
+        <img src="{{ asset('assets/images/log1.png') }}" 
      class="img-fluid me-2" 
      alt="Logo" 
-     style="height: 70px; object-fit: contain;">
-        <!-- <span class="text-uppercase fs-6 text-primary py-1 pt-sm-0 fst-italic">
-          Siloam medical, technical<br>and commercial training college
-        </span> -->
+     style="height: 50px; object-fit: contain;">
       </a>
 
       <ul class="nav nav-pills fs-5">
-        <li class="nav-item"><a href="" class="nav-link">Administration</a></li>
+
+    <li class="nav-item"><a href="{{ route('school.admission') }}" class="nav-link">Admission</a></li>
+
   <li class="nav-item dropdown position-static">
     <div class="nav-link dropdown-toggle text-decoration-none" id="academicsDropdown" 
     role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,7 +42,7 @@
                   <ul class="list-unstyled">
                     <li><a class="dropdown-item py-1" href="{{ route('academic.programs') }}">Courses</a></li>
                  
-                    <li><a class="dropdown-item py-1" href="{{ route('school.packages') }}">Computer Studies</a></li>
+                    <li><a class="dropdown-item py-1" href="{{ route('academic.packages') }}">Computer Studies</a></li>
                   </ul>
                 </div>
 
@@ -89,17 +88,27 @@
             </div>
           </div>
         </li>
-        <li class="nav-item"><a href="{{ route('academic.faqs') }}" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="{{ route('about') }}" class="nav-link">About Us</a></li>
+                <li class="nav-item dropdown">
+    <div class="nav-link dropdown-toggle text-decoration-none" id="academicsDropdown" 
+    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us</div>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item py-1" href="{{route('about')}}">About US</a></li>
+    <li><a class="dropdown-item py-1" href="{{ route('school.team') }}">Our Team</a></li>
+    <li><a class="dropdown-item py-1" href="{{ route('school.dean') }}">Dean of Students</a></li>
+    <li><a class="dropdown-item py-1" href="#">Finance Office</a></li>
+  </ul>
+</li>
+    <li class="nav-item"><a href="{{ route('academic.faqs') }}" class="nav-link">FAQs</a></li>
       </ul>
     </div>
 
     <!-- Right side: Staff | Student -->
-    <!-- <div class="fs-5 text-right">
-      <a href="{{ route('home')}}" class="text-decoration-none text-primary">Staff</a>
+     <div class="fs-5 text-right">
+     <!-- <a href="{{ route('home')}}" class="text-decoration-none text-primary">Staff</a>-->
       <span class="text-dark mx-2">|</span>
       <a href="{{ route('home') }}" class="text-decoration-none text-primary">Student</a>
-    </div> -->
+    </div> 
 
   </header>
 </div>

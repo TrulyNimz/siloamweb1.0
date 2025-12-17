@@ -54,3 +54,19 @@ window.addEventListener("scroll", function () {
 
     lastScrollTop = scrollTop;
 });
+    document.addEventListener('DOMContentLoaded', function () {
+        const navbar = document.getElementById('mainNavbar');
+        if (navbar) {
+            const navbarHeight = navbar.offsetHeight;
+            document.body.style.paddingTop = navbarHeight + 'px';
+        }
+    });
+
+    // Optional: Adjust on window resize
+    window.addEventListener('resize', function () {
+        const navbar = document.getElementById('mainNavbar');
+        if (navbar) {
+            document.body.style.paddingTop = navbar.offsetHeight + 'px';
+        }
+    });
+

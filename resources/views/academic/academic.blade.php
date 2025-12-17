@@ -2,15 +2,15 @@
 
 <div class="container-fluid px-0 bg-info text-black p-4 pt-1 rounded">
     
-    <h3 class="text-dark fw-bold text-center my-3">
-        Academics <span class="text-dark mx-2">|</span> Programmes
+    <h3 class="text-dark text-center my-3">
+        Academics | Programmes
     </h3>
 
-    <div class="row justify-content-center mx-0 g-4">
+    <div class="row justify-content-center class-name mx-0 g-4">
 
         <!-- Course 1 -->
         <div class="col-md-5 col-10 mb-3">
-            <a href="{{ route('school.pptt') }}" class="text-decoration-none text-black">
+            <a href="{{ route('academic.pptt') }}" class="text-decoration-none text-black">
                 <div class="course-box h-100">
                     <h5 class="mb-2">Perioperative Theatre Technology</h5>
                     <p class="text-muted mb-0">

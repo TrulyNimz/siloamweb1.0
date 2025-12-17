@@ -11,7 +11,7 @@
 
       <!-- Quick Links -->
       <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase mb-3 text-start">College Information</h5>
+        <h5 class="text-uppercase mb-3 text-start">Quick Links</h5>
         <ul class="list-unstyled text-start me-2 ms-5">
           <li><a href="{{ route('home') }}" class="text-white text-decoration-none">Home</a></li>
           <li><a href="{{ route('about') }}" class="text-white text-decoration-none">About Us</a></li>
@@ -40,7 +40,7 @@
     </div>
     <hr class="border-light">
     <div class="text-start text-black fs-6">
-      <p class="mb-2">&copy; {{ date('Y') }} Siloam Hosptial College of Health Sciences</p>
+      <p class="mb-2">&copy; {{ date('Y') }} Siloam Medical, Technical, & Commercial Training College</p>
     </div>
   </div>
 </footer>

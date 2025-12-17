@@ -1,15 +1,15 @@
 @extends('partials.layouts')
 @section('title','Perioperative-Theatre-Technology')
 <link rel="stylesheet" href="{{ asset('assets/css') }}">
-<div class="position-relative bg-info mt-3 mb-3 text-white">
-  <img src="{{ asset('assets/images/cna.jpg') }}" 
-       class="img-fluid w-100"
-       style="height:500px; object-fit:cover;"
-       alt="">
-
-  <div class="position-absolute top-50 bg-dark bg-opacity-50 p-3 rounded start-40 ms-5 
-              fs-1 fw-bold text-start text-light">
-    Certified <br>Nursing <br>Assistant (CNA)
+<div class="position-relative">
+    <img src="{{ asset('assets/images/cna.jpg') }}"
+         class="img-fluid w-100"
+         style="height:600px; object-fit:cover;"
+         alt="">
+    <div class="position-absolute top-0 start-25 w-100 h-100"
+     style="opacity: 0.95;"></div>
+<div class="me-4 position-absolute top-50 fs-1 fw-bold start-40 translate-middle-x text-white text-center w-100 pt-5">
+  Our Team
   </div>
 </div>
 <div class="container card-body my-4">
