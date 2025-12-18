@@ -69,4 +69,3 @@ window.addEventListener("scroll", function () {
             document.body.style.paddingTop = navbar.offsetHeight + 'px';
         }
     });
-

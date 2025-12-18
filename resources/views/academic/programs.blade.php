@@ -1,6 +1,6 @@
 @extends('partials.layouts')
 @section('title','SMTC-TC | Our-Programs')
-<link rel="stylesheet" href="{{ asset('assets/css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative bg-info mt-3 mb-1 text-white">
   <img src="{{ asset('assets/images/ckr.jpg') }}" 
        class="img-fluid w-100 opacity-75"

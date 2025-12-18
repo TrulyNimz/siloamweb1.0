@@ -1,4 +1,4 @@
- <link rel="stylesheet" href="{{ asset('assets/main.css') }}">
+ <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
  <div class="text-monospace pt-3 fw-bold fs-4 fade-up">
      <h1 class=" text-center text-primary mb-2">
             About Us
@@ -8,7 +8,7 @@
             Shaping Minds, Transforming Lives.
         </h4>
         <p class="lead text-muted mx-auto" style="max-width: 750px;">
-            At Siloam Medical, Technical & Commercial Training College, we focus on empowering students 
+            At Siloam Medical & Technical College, we focus on empowering students 
             through practical learning, industry-aligned programs, and a supportive academic environment. 
             Our goal is to develop skilled professionals ready to thrive in today’s evolving world.
         </p>

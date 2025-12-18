@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('assets/main.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 <div class="container my-4">
   <h2 class="text-center fw-bold pt-4 fs-3 mb-4">Student Life</h2>
 

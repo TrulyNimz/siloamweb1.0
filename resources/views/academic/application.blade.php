@@ -2,8 +2,8 @@
 
 @section('content')
 @section('title','Siloam College - Application Form')
-<link rel="stylesheet" href="{{ asset('assets/main.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="container my-5 d-flex justify-content-center">
     <div class="card shadow-lg p-4" style="max-width: 600px; width: 100%;">
       @if ($errors->any())

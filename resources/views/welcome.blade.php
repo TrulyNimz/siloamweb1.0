@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('assets/css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 <div class="hero-wrapper position-relative">
   <!-- Carousel -->
@@ -30,7 +30,7 @@
   <!-- Overlay -->
   <div class="hero-overlay text-center">
       <h2 class="hero-title">
-          Welcome to Siloam Medical, Technical & Commercial Training College
+          Welcome to Siloam Medical & Technical College
       </h2>
 
       <div class="hero-buttons mt-3">

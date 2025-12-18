@@ -1,24 +1,25 @@
 @extends('partials.layouts')
 
-@section('title', 'Mission, Vission and Core Values - Siloam College')
-
- @section('content')
+@section('title', 'Mission, Vission and Core Values - SMTC')
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="{{ asset('assets/css') }}">
- <div class="class-name text-start">
+ <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+ <div class="class-name text-start mt-3">
      <h1 class="class-name mb-2 text-capitalize text-center">About Us</h1>
       <span style="display:block; width:60px; height:2px; background:#0dcaf0; margin:5px auto 0;"></span>
-    <h2 class="class-name mb-2 mt-5 text-capitalize text-center">welcome to siloam medical, tehnical, and commercial training college.</h2>
+    <h2 class="class-name mb-2 mt-5 text-capitalize text-center">welcome to siloam medical & tehnical college.</h2>
         <span style="display:block; width:200px; height:2px; background:#0dcaf0; margin:5px auto 0;"></span>
-     <h3 class="mb-4 mt-4 text-start fs-5 text-muted">Siloam College operates with the explicit mandate to prepare world-class healthcare professionals who will transform healthcare systems, both locally and globally. We fulfill this mandate by dedicating our resources to delivering innovative education and training programs, cultivating compassionate leaders ready to drive positive community health outcomes.</h3>
+     <h3 class="mb-4 mt-4 ms-4 text-start fs-5 text-muted">Siloam Medical & Technical College operates with the explicit mandate to prepare world-class healthcare professionals who will transform healthcare systems, both locally and globally. We fulfill this mandate by dedicating our resources to delivering innovative education and training programs, cultivating compassionate leaders ready to drive positive community health outcomes.</h3>
       <div class="bg-info text-white py-2 rounded">
       <p class="class-name text-center lead text-center fw-bold fs-4 m-0">
 Mission, Vission, and Core Values.
     </p>
     </div>
-<div class="my-4"></div>
+ </div>
+  @section('content')
+<div class="my-4">
     <h3 class="class-name text-center fs-1 fw-bold">Vision</h3>
   <p>To prepare world-class healthcare professionals committed to transforming healthcare locally and everywhere.</p>
 

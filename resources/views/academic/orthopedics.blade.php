@@ -1,10 +1,10 @@
 @extends('partials.layouts')
 @section('title','Orthopedics-abd-Trauma-Medicine')
-<link rel="stylesheet" href="{{ asset('assets/css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative card bg-info mt-3 mb-3 text-white">
   <img src="{{ asset('assets/images/orth.png') }}" 
        class="img-fluid w-100"
-       style="height:500px; object-fit:cover;"
+       style="height:300px; object-fit:cover;"
        alt="">
 
   <div class="position-absolute top-50 start-50 translate-middle 
@@ -148,8 +148,10 @@
           Please ensure that all required documents are ready before submission.
         </p>
         <div class="text-center">
-        <a href="{{ route('academic.application') }}" class="btn btn-info text-white mt-3 px-5 py-4 w-auto d-inline-block rounded-pill fs-4">Apply Now</a>
-      </div>
+         <a href="{{ route('academic.application') }}" class="btn btn-outline-primary mt-3 px-4 py-3  w-auto d-inline-block rounded-pill fs-5">
+        <i class="fa fa-hand-pointer me-2"></i>Apply Now
+         </a>
+        </div>
       </div>
     </div>
   </div>

@@ -9,7 +9,7 @@
 @section('content')
 <div class="container my-4 me-3 col-md-11">
   <div class="">
-    <div class="card-body font ">
+    <div class="card-body font">
       <h4 class="fw-bold text-center mb-4">
         Functions of the Dean of Students
       </h4>

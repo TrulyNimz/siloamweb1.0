@@ -1,13 +1,10 @@
 @extends('partials.layouts')
 
 @section('title', 'Siloam Admissions')
-
-<link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="stylesheet" href="{{ asset('assets/css') }}">
-    <link rel="icon" type="image/png/jpg" href="{{ asset('assets/images/LOGO.jpg') }}?v=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <!-- Hero Section -->
-<div class="position-relative">
+<div class="position-relative mb-4">
     <img src="{{ asset('assets/images/adm.jpg') }}"
          class="img-fluid w-100"
          style="height:500px; object-fit:cover;"
@@ -22,7 +19,6 @@
 </div>
 
 </div>
-@section('content')
 
 <!-- Admission Content -->
 <section class="container my-5 text-muted mt-0">
@@ -36,7 +32,7 @@
 
                 <!-- Left Column: Image -->
                 <div class="col-md-4">
-                    <img src="{{ asset('assets/images/admission.jpg') }}"
+                    <img src="{{ asset('assets/images/adm1.jpg') }}"
                          class="img-fluid w-100 rounded"
                          alt="Admission Image">
                 </div>
@@ -72,18 +68,30 @@
 
             </div>
 
-            <!-- Apply Button -->
-<div class="text-center mt-4">
-    <a href="{{ route('academic.application') }}"
-       class="btn btn-success px-5 py-3 apply-btn rounded-pill text-bold">
-        <i class="fas fa-user-graduate me-2"></i> Apply Now
-    </a>
-</div>
-
         </div>
     </div>
-
 </section>
+    <div class="container-fluid bg-light py-5">
+    <div class="container text-center fade-up">
+        <h4 class="fw-bold">Start Your Journey</h4>
 
-@endsection
+        <p class="text-secondary mt-3 mb-3">    
+            Join our <strong>accredited programs</strong>, learn from
+            <strong>experienced faculty</strong>, and train in
+            <strong>modern, well-equipped facilities</strong> designed to prepare you
+            for a successful healthcare career.
+        </p>
+
+        <small class="text-muted d-block">
+            Applications are now open for the upcoming intake. Secure your spot today and begin your journey toward a rewarding healthcare career. Limited seats available!
+        </small>
+        <P class="mb-3">Our next intake:<strong>January 2026</strong>Don't miss out!</P>
+        <a href="{{ route('academic.application') }}" 
+           class="btn btn-outline-primary btn-lg rounded-pill d-inline-flex align-items-center justify-content-center"
+           style="gap: 8px;">
+            <i class="fas fa-paper-plane"></i>
+            Apply Now
+        </a>
+    </div>
+</div>
 

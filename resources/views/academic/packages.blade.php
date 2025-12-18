@@ -1,6 +1,6 @@
 @extends('partials.layouts')
 @section('title','Computer Studies')
-<link rel="stylesheet" href="{{ asset('assets/css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative card bg-info mt-3 mb-3 text-white">
   <img src="{{ asset('assets/images/PC.jpeg') }}" 
        class="img-fluid w-100"

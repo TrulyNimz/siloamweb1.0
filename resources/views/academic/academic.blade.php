@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('assets/css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 <div class="container-fluid px-0 bg-info text-black p-4 pt-1 rounded">
     

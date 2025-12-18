@@ -13,7 +13,6 @@
   gap: 1rem;
   animation: scroll-left 25s linear infinite;
 }
-
 .scrolling-images:hover {
   animation-play-state: paused;
 }
