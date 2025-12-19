@@ -35,7 +35,7 @@
                 <div class="card h-100 shadow-sm">
                     <img src="{{ asset('assets/images/Dir.jpg') }}" class="card-img-top" alt="Siloam">
                     <div class="card-body text-center">
-                        <h4 class="card-title">Director</h4>
+                        <h4 class="card-title">Miss Cheruto</h4>
                         <p class="card-text">Director</p>
                         <a href="#" class="btn btn-primary"><i class="fas fa-user-graduate me-2"></i>See Profile</a>
                     </div>
@@ -135,7 +135,7 @@
                                     <button type="button" class="btn-close position-absolute top-0 end-0 m-2"
                                         data-bs-dismiss="modal"></button>
 
-                                    <h6 class="fw-bold mb-1">Ruth</h6>
+                                    <h6 class="fw-bold mb-1">Ruth Orina</h6>
                                     <p class="small text-muted mb-1">Dean of Students</p>
                                     <p class="small mb-0">
                                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium

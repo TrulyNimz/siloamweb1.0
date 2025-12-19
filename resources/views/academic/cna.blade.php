@@ -1,5 +1,5 @@
 @extends('partials.layouts')
-@section('title','Perioperative-Theatre-Technology')
+@section('title','Certified-Nursing-Assistant')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <div class="position-relative">
     <img src="{{ asset('assets/images/cna.jpg') }}"
@@ -9,7 +9,7 @@
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark"
      style="opacity: 0.75;"></div>
 <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
-    <h1 class="hero-title fw-bold  text-uppercase">Our Team</h1>
+    <h1 class="hero-title fw-bold  text-uppercase">Certified <br> Nursing <br> Assistant</h1>
 </div>
 
 </div>
@@ -39,7 +39,7 @@
         </div>
         <!-- Content -->
         <div class="card-body">
-          <p class="fw-bold fs-4 mb-2">TVET Accredited</p>
+          <p class="fw-bold fs-4 mb-2">KHPOA Accredited</p>
           <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-info"></i>Examining Body</p>
           <ul class="list-unstyled fs-6 mb-0">
             <li>TVET-CDAAC</li>

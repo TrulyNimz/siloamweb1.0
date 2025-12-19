@@ -30,4 +30,8 @@ class AcademicController extends Controller
     {
         return view('academic.packages');
     }
+     public function nursing()
+    {
+        return view('academic.nursing');
+    }
 }

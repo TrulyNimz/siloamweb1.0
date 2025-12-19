@@ -85,7 +85,7 @@
         <small class="text-muted d-block">
             Applications are now open for the upcoming intake. Secure your spot today and begin your journey toward a rewarding healthcare career. Limited seats available!
         </small>
-        <P class="mb-3">Our next intake:<strong>January 2026</strong>Don't miss out!</P>
+        <P class="mb-3">Our next intake: <br><strong>January 2026</strong><br>Don't miss out!</P>
         <a href="{{ route('academic.application') }}" 
            class="btn btn-outline-primary btn-lg rounded-pill d-inline-flex align-items-center justify-content-center"
            style="gap: 8px;">

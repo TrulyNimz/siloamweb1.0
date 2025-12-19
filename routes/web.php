@@ -22,6 +22,7 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/school/admission', [HomeController::class, 'admission'])->name('school.admission');
 Route::get('/academic/faqs', [HomeController::class, 'faqs'])->name('academic.faqs');
 Route::get('/academic/academic', [AcademicController::class, 'academic'])->name('academic.academic');
+Route::get('academic/nursing',[AcademicController::class,'nursing'])->name('academic.nursing');
 Route::get('/academic/pptt', [AcademicController::class, 'pptt'])->name('academic.pptt');
 Route::get('/academic/cna', [AcademicController::class, 'cna'])->name('academic.cna');
 Route::get('/academic/orthopedics',[AcademicController::class, 'orthopedics'])->name('academic.orthopedics');

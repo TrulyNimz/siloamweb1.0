@@ -53,14 +53,6 @@
                     <li><a class="dropdown-item py-1" href="#">Technical</a></li>
                   </ul>
                 </div> 
-                <!-- <div class="col-md-3">
-                  <h6 class="fw-bold text-primary">Faculties</h6>
-                  <ul class="list-unstyled">
-                    <li><a class="dropdown-item py-1" href="#">Science</a></li>
-                    <li><a class="dropdown-item py-1" href="#">Arts</a></li>
-                    <li><a class="dropdown-item py-1" href="#">Business</a></li>
-                  </ul>
-                </div> -->
               <div class="col-md-3">
   <h6 class="fw-bold text-primary">Related Links</h6>
   <ul class="list-unstyled">
@@ -93,8 +85,8 @@
   <ul class="dropdown-menu">
     <li><a class="dropdown-item py-1" href="{{route('about')}}">About US</a></li>
     <li><a class="dropdown-item py-1" href="{{ route('school.team') }}">Our Team</a></li>
-    <li><a class="dropdown-item py-1" href="{{ route('school.dean') }}">Dean of Students</a></li>
-    <li><a class="dropdown-item py-1" href="#">Finance Office</a></li>
+    <li><a class="dropdown-item py-1" href="{{ route('school.dean') }}">Student Affairs</a></li>
+    <li><a class="dropdown-item py-1" href="#">Finance & Accounts</a></li>
   </ul>
 </li>
     <li class="nav-item"><a href="{{ route('academic.faqs') }}" class="nav-link">FAQs</a></li>

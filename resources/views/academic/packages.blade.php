@@ -1,16 +1,14 @@
 @extends('partials.layouts')
 @section('title','Computer Studies')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="position-relative card bg-info mt-3 mb-3 text-white">
-  <img src="{{ asset('assets/images/PC.jpeg') }}" 
-       class="img-fluid w-100"
-       style="height:500px; object-fit:cover;"
-       alt="">
+<div class="position-relative">
+    <img src="{{ asset('assets/images/Computer.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
+        alt="">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
+    <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
+        <h1 class="hero-title fw-bold  text-uppercase">Computer <br> Packages</h1>
+    </div>
 
-  <div class="position-absolute top-50 start-50 translate-middle 
-              fs-1 fw-bold text-start text-primary">
-   Computer Packages
-  </div>
 </div>
 <div class="container card-body my-4">
   <div class="row">
@@ -151,7 +149,7 @@
           Please ensure that all required documents are ready before submission.
         </p>
         <div class="text-center">
-        <a href="{{ route('academic.application') }}" class="btn btn-info text-white mt-3 px-5 py-4 w-auto d-inline-block rounded-pill fs-4">Apply Now</a>
+        <a href="{{ route('academic.application') }}" class="btn btn-outline-primary mt-3 px-5 py-4 w-auto d-inline-block rounded-pill fs-4">Apply Now</a>
       </div>
       </div>
     </div>

@@ -1,15 +1,14 @@
 @extends('partials.layouts')
 @section('title','Perioperative-Theatre-Technology')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="position-relative bg-info mt-3 mb-3 text-white">
-  <img src="{{ asset('assets/images/PERIP.jpg') }}" 
-       class="img-fluid w-100"
-       style="height:500px; object-fit:cover;"
-       alt="">
+<div class="position-relative">
+    <img src="{{ asset('assets/images/PERIP.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
+        alt="">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
+    <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
+        <h1 class="hero-title fw-bold  text-uppercase">Perioperative <br> Theatre <br> Technology</h1>
+    </div>
 
-  <div class="position-absolute top-50 bg-dark bg-opacity-50 rounded fs-1 fw-bold text-white">
-    Perioperative <br> Theatre <br> Technology
-</div>
 </div>
 <div class="container card-body my-4">
   <div class="row">
@@ -17,7 +16,7 @@
       <div class="card border-info bg-light h-100 p-4 border-top-3 ">
         <h4 class="fw-bold mb-3">Overview</h4>
         <p class="fs-6">
-          The Perioperative Theatre Technology program at Siloam Medical, Technical and Commercial Training College equips students with the knowledge and skills required to support surgical teams. The course covers operating room procedures, theatre organization, sterilization techniques, infection prevention, patient preparation, and assisting surgeons during operations.
+          The Perioperative Theatre Technology program at Siloam Medical & Technical College equips students with the knowledge and skills required to support surgical teams. The course covers operating room procedures, theatre organization, sterilization techniques, infection prevention, patient preparation, and assisting surgeons during operations.
         </p>
       </div>
     </div>
@@ -36,8 +35,8 @@
         </div>
         <!-- Content -->
         <div class="card-body">
-          <p class="fw-bold fs-4 mb-2">TVET Accredited</p>
-          <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-info"></i>Examining Body</p>
+          <p class="fw-bold fs-4 mb-2">KHPOA Accredited</p>
+          <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-info"></i>Examination Body</p>
           <ul class="list-unstyled fs-6 mb-0">
             <li>TVET-CDAAC</li>
           </ul> 

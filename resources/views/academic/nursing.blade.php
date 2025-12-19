@@ -1,14 +1,14 @@
 @extends('partials.layouts')
-@section('title', 'Orthopedics-&-Trauma-Medicine')
+@section('title', 'SMTC-Nursing')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="position-relative card bg-info mt-3 mb-3 text-white">
-    <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100" style="height:300px; object-fit:cover;"
+<div class="position-relative">
+    <img src="{{ asset('assets/images/Nursing.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
         alt="">
-
-    <div class="position-absolute top-50 start-50 translate-middle 
-              fs-1 fw-bold text-start text-dark">
-        Orthopedics And Trauma Medicine
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
+    <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
+        <h1 class="hero-title fw-bold  text-uppercase">Nursing</h1>
     </div>
+
 </div>
 <div class="container card-body my-4">
     <div class="row">
@@ -16,11 +16,12 @@
             <div class="card border-info bg-light h-100 p-4 border-top-3">
                 <h4 class="fw-bold mb-3">Overview</h4>
                 <p class="fs-6">
-                    The Orthopedics & Trauma Medicine program at Siloam Medical, Technical and Commercial Training
-                    College is designed to equip students with the essential knowledge and hands-on skills required to
-                    manage musculoskeletal injuries and disorders. The program covers anatomy and physiology of bones
-                    and joints, fracture management, casting and splinting techniques, wound care, and rehabilitation
-                    protocols.
+                    The Nursing program at Siloam Medical & Technical College is designed to equip students with
+                    essential knowledge and practical skills required to deliver safe, compassionate, and effective
+                    patient care. The program covers fundamentals of nursing practice, anatomy and physiology, patient
+                    assessment, vital signs monitoring, infection prevention and control, medication administration,
+                    first aid, and ethical standards in healthcare. Graduates are prepared to work competently in
+                    hospitals, clinics, and community health settings.
             </div>
         </div>
     </div>

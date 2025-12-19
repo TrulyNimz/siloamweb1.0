@@ -2,11 +2,15 @@
 
 @section('title', 'FAQs')
 
+<div class="container-fluid bg-light text-primary py-3">
+  <h2 class="text-center fw-bold m-0">
+    Frequently Asked Questions
+  </h2>
+</div>
+
 @section('content')
 
-<div class="container my-5">
-    <h2 class="text-center mb-4 fw-bold">Frequently Asked Questions</h2>
-
+<div class="container my-2">
     <div class="accordion" id="faqAccordion">
 
         <!-- FAQ 1 -->
