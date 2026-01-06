@@ -1,4 +1,5 @@
 <?php
+
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AcademicController;
 use App\Http\Controllers\SchoolController;
@@ -22,10 +23,10 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/school/admission', [HomeController::class, 'admission'])->name('school.admission');
 Route::get('/academic/faqs', [HomeController::class, 'faqs'])->name('academic.faqs');
 Route::get('/academic/academic', [AcademicController::class, 'academic'])->name('academic.academic');
-Route::get('academic/nursing',[AcademicController::class,'nursing'])->name('academic.nursing');
+Route::get('academic/nursing', [AcademicController::class, 'nursing'])->name('academic.nursing');
 Route::get('/academic/pptt', [AcademicController::class, 'pptt'])->name('academic.pptt');
 Route::get('/academic/cna', [AcademicController::class, 'cna'])->name('academic.cna');
-Route::get('/academic/orthopedics',[AcademicController::class, 'orthopedics'])->name('academic.orthopedics');
+Route::get('/academic/orthopedics', [AcademicController::class, 'orthopedics'])->name('academic.orthopedics');
 Route::get('/academic/programs', [AcademicController::class, 'programs'])->name('academic.programs');
 Route::get('/academic/packages', [AcademicController::class, 'packages'])->name('academic.packages');
 Route::get('/school/dean', [SchoolController::class, 'dean'])->name('school.dean');
@@ -36,3 +37,5 @@ Route::get('/academic/application', [ApplicationController::class, 'create'])->n
 Route::post('/apply', [ApplicationController::class, 'store'])->name('academic.application.store');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.form');
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+Route::get('/student/login', [HomeController::class, 'login'])->name('student.login');
+Route::post('/student/login', [ContactController::class, 'login'])->name('login');

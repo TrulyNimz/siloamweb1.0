@@ -15,7 +15,7 @@
         <ul class="list-unstyled text-start me-2 ms-5 text-black">
           <li><a href="{{ route('home') }}" class="text-black text-decoration-none">Home</a></li>
           <li><a href="{{ route('about') }}" class="text-black text-decoration-none">About Us</a></li>
-          <li><a href="" class="text-black text-decoration-none">Departments</a></li>
+          <li><a href="{{route('academic.faqs')}}" class="text-black text-decoration-none">FAQS</a></li>
           <li><a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=info.siloamhospitalcollegeofhscs@gmail.com" target="_blank" rel="noreferrer noopener" class="text-black text-decoration-none">Email Us</a></li>
       </div>
 
@@ -31,10 +31,10 @@
         <!-- Social Media -->
         <div class="mt-3">
           <a href="https://www.facebook.com/profile.php?id=61581782424060" target="_blank" rel="noopener noreferrer" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/@siloamcollege25" target="_blank" rel="noopener norreferrer" class="text-dark me-3"><i class="fab fa-tiktok"></i></a>
           <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
           <a href="#" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
           <a href="#" class="text-dark me-3"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.tiktok.com/@siloamcollege25" target="_blank" rel="noopener norreferrer" class="text-dark me-3"><i class="fab fa-tiktok"></i></a>
         </div>
       </div>
     </div>

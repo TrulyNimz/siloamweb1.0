@@ -7,7 +7,7 @@
 <div class="position-relative mb-4">
     <img src="{{ asset('assets/images/adm.jpg') }}"
          class="img-fluid w-100"
-         style="height:500px; object-fit:cover;"
+         style="height:400px; object-fit:cover;"
          alt="">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark"
      style="opacity: 0.80;"></div>
@@ -50,7 +50,7 @@
                         <li>Fill in all required information in each step.</li>
                         <li>Complete and submit your application.</li>
                         <li>You will receive a confirmation email once submitted successfully.</li>
-                        <li>Pay a non-refundable application fee of <strong>Kshs. 1,000</strong>.</li>
+                        <li>Pay a non-refundable application fee of <strong>Kshs. 1,500</strong>.</li>
                     </ol>
 
                     <h6 class="text-primary mb-3">
@@ -62,6 +62,7 @@
                         <li>At least two academic certificates (e.g. KCPE & KCSE).</li>
                         <li>Copy of National ID or Birth Certificate.</li>
                         <li>Original certificates for verification on reporting date.</li>
+                        <li>Medical insurance cover (e.g SHA)</li>
                     </ol>
 
                 </div>

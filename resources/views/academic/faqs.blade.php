@@ -4,7 +4,7 @@
 
 <div class="container-fluid bg-light text-primary py-3">
   <h2 class="text-center fw-bold m-0">
-    Frequently Asked Questions
+    Frequently Asked Questions.
   </h2>
 </div>
 

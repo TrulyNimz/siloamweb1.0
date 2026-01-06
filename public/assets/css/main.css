@@ -1,8 +1,10 @@
 .dotted-card {
-    border: 2px dotted !important;
-    border-color: #0dcaf0 !important; /* Bootstrap info */
-    border-radius: 0.5rem;
+  border: 2px dotted !important;
+  border-color: #0dcaf0 !important;
+  /* Bootstrap info */
+  border-radius: 0.5rem;
 }
+
 .scrolling-row {
   overflow: hidden;
   width: 100%;
@@ -13,6 +15,7 @@
   gap: 1rem;
   animation: scroll-left 25s linear infinite;
 }
+
 .scrolling-images:hover {
   animation-play-state: paused;
 }
@@ -23,10 +26,11 @@
 }
 
 .scroll-item img {
-  height: 200px; /* adjust for your design */
+  height: 200px;
+  /* adjust for your design */
   width: auto;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   display: block;
 }
 
@@ -36,7 +40,7 @@
   bottom: 8px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 4px 8px;
   border-radius: 4px;
@@ -49,6 +53,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -65,18 +70,48 @@
   .scroll-item img {
     height: 120px;
   }
-}.form-label::after {
-    content: " *";
-    color: red;
 }
+
+.form-label::after {
+  content: " *";
+  color: red;
+}
+
 .fade-up {
-    opacity: 0;
-    transform: translateY(40px); /* start LOWER */
-    transition: opacity 0.8s ease, transform 0.8s ease;
+  opacity: 0;
+  transform: translateY(40px);
+  /* start LOWER */
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 /* Visible state (when scrolled into view) */
 .fade-up.show {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }

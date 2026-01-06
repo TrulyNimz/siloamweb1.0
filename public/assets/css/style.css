@@ -1,14 +1,16 @@
 .profile-img {
-    width: 275px;
-    height: 275px;
-    object-fit: cover;
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
 }
+
 .hero-title {
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
-    font-weight: 20;
-    letter-spacing: 2px;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 20;
+  letter-spacing: 2px;
 
 }
+
 .hero-wrapper {
   height: 75vh;
   position: relative;
@@ -200,8 +202,9 @@
 .class-name {
   font-family: 'PT Serif', Sans-serif;
 }
-.font{
-  font-family:'Trebuchet MS', sans-serif;
+
+.font {
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 .apply-btn {

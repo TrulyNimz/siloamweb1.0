@@ -11,9 +11,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-     return view('home');
+        return view('home');
     }
-    
+
     public function about()
     {
         return view('about');
@@ -22,14 +22,18 @@ class HomeController extends Controller
     {
         return view('academic.faqs');
     }
-        public function admission()
+    public function admission()
     {
         return view('school.admission');
     }
-        public function team()
-        {
-            return view('school.team');
-        }
+    public function team()
+    {
+        return view('school.team');
+    }
+    public function login()
+    {
+        return view('student.login');
+    }
     /**
      * Show the form for creating a new resource.
      */

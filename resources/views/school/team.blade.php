@@ -23,7 +23,7 @@
                 <div class="card h-100 shadow-sm">
                     <img src="{{ asset('assets/images/Cha.jpg') }}" class="card-img-top" alt="Siloam">
                     <div class="card-body text-center">
-                        <h4 class="card-title">Hon. Frankile Bett</h4>
+                        <h4 class="card-title">Hon. Frankline Bett</h4>
                         <p class="card-text">Chairman</p>
                         <a href="#" class="btn btn-primary"><i class="fas fa-user-graduate me-2"></i>See Profile</a>
                     </div>
@@ -152,7 +152,7 @@
             <!-- Card 6 -->
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('assets/images/OM.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
+                    <img src="{{ asset('assets/images/rena.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
                         alt="Siloam">
                     <div class="card-body text-center">
                         <h4 class="card-title">Renalda Riaga</h4>

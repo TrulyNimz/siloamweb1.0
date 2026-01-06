@@ -95,10 +95,10 @@
 
     <!-- Right side: Staff | Student -->
      <div class="fs-5 text-right">
-     <!-- <a href="{{ route('home')}}" class="text-decoration-none text-primary">Staff</a>-->
+     <!-- <a href="{{ route('home')}}" class="text-decoration-none text-primary">Staff</a>
       <span class="text-dark mx-2">|</span>
-      <a href="{{ route('home') }}" class="text-decoration-none text-primary">Student</a>
-    </div> 
+      <a href="{{ route('student.login') }}" class="text-decoration-none text-primary">Student</a>
+    </div> -->
 
   </header>
 </div>

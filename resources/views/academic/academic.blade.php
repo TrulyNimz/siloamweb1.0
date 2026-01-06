@@ -28,7 +28,7 @@
             <div class="col-5">
                 <div class="p-3 border bg-light">
                     <h5 class=" text-capitalize text-center">Certified Nurse Assistant</h5>
-                    <p class=" mb-0">
+                    <p class=" mb-0 ms-2">
                         Trains students in patient care skills, nursing procedures,
                         and healthcare support techniques.
                 </div>
