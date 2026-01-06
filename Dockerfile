@@ -51,9 +51,4 @@ php artisan serve --host=0.0.0.0 --port=10000' \
 > /entrypoint.sh && chmod +x /entrypoint.sh
 
 EXPOSE 10000
-
-<<<<<<< HEAD
 ENTRYPOINT ["/entrypoint.sh"]
-=======
-ENTRYPOINT ["/entrypoint.sh"]
->>>>>>> 22817b7 (team)
