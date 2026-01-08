@@ -15,7 +15,7 @@
       </h4>
       <ul>
         <li>
-            <strong>The office of the Dean of Students </strong>is primarily concerned with the students welfare from the time they are admitted into the university to the time they graduate.
+            <strong>The office of the Dean of Students </strong>is primarily concerned with the students welfare from the time they are admitted into the college to the time they graduate.
         </li>
       </ul>
 
@@ -57,7 +57,7 @@
 
       <p><strong>VII. Discipline</strong></p>
       <p>
-        The university has rules and regulations that must be adhered to by all
+        The college has rules and regulations that must be adhered to by all
         students. The office ensures compliance and handles disciplinary matters
         fairly when rules are violated.
       </p>

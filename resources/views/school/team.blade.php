@@ -245,9 +245,11 @@
                                     <h6 class="fw-bold mb-1">Mercy Kitur</h6>
                                     <p class="small text-muted mb-1">School Chaplain & Tutor</p>
                                     <p class="small mb-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        I am a Tutor and Chaplain at Siloam, supporting students’ academic success and
+                                        spiritual growth. I provide guidance, mentorship, and pastoral care, helping
+                                        students build confidence, integrity, and resilience. My goal is to nurture the
+                                        whole student—academically, morally, and spiritually—preparing them to face life’s
+                                        challenges with faith and purpose.
                                     </p>
 
                                 </div>
@@ -278,9 +280,14 @@
                                     <h6 class="fw-bold mb-1">Purity Ngeno</h6>
                                     <p class="small text-muted mb-1">H.O.D Perioperative Theatre Technology</p>
                                     <p class="small mb-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        As H.O.D for Perioperative Theatre Technology at Siloam Hospital College of Health
+                                        Sciences, I lead the training of students to become skilled, professional, and
+                                        compassionate theatre technologists. I oversee curriculum delivery, clinical skills
+                                        training, and mentorship, while providing career guidance and psychological support.
+                                        I work closely with the school registrar and clinical instructors to coordinate
+                                        placements and academic progression. I am committed to evidence-based practice,
+                                        professional development, and excellence in perioperative education, and I highly
+                                        recommend Siloam Hospital College as a top institution for health sciences training.
                                     </p>
 
                                 </div>
