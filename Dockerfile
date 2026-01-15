@@ -29,8 +29,9 @@ RUN chmod -R 775 storage bootstrap/cache
 # Expose Render port
 EXPOSE 10000
 
-# 🔥 CLEAN DUPLICATES + MIGRATE + SEED + START SERVER
+# 🔥 MIGRATE + CLEAN DUPLICATES + SEED + STORAGE LINK + START
 CMD php artisan migrate --force \
  && php artisan tinker --execute="DB::statement(\"DELETE FROM courses a USING courses b WHERE a.id > b.id AND a.name = b.name\");" \
  && php artisan db:seed --class=CoursesSeeder --force \
+ && php artisan storage:link \
  && php artisan serve --host=0.0.0.0 --port=10000
