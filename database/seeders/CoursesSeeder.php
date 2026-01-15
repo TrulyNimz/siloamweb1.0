@@ -11,14 +11,22 @@ class CoursesSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run(): void
-    {
-        DB::table('courses')->insert([
-            ['name' => 'Orthopedic & Trauma Medicine'],
-            ['name' => 'Perioperative Theatre Technology'],
-            ['name' => 'CNA'],
-            ['name' => 'Computer Packages'],
-            ['name' => 'Nursing'],
-        ]);
+ public function run(): void
+{
+    $courses = [
+        'Orthopedic & Trauma Medicine',
+        'Perioperative Theatre Technology',
+        'CNA',
+        'Computer Packages',
+        'Nursing',
+    ];
+
+    foreach ($courses as $course) {
+        \DB::table('courses')->updateOrInsert(
+            ['name' => $course],
+            ['name' => $course]
+        );
     }
+}
+
 }
