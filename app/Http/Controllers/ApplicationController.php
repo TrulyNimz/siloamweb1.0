@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Application;
 use App\Models\Course;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
 class ApplicationController extends Controller
