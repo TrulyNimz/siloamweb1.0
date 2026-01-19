@@ -1,56 +1,40 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-<div class="container-fluid px-0 bg-info  p-4 pt-1 rounded">
+<div class="container-fluid px-0 bg-info  p-4 pt-1">
 
     <h3 class="text-center my-3">
         Academics | Programmes
     </h3>
     <div class="container overflow-hidden">
-        <div class="row gy-4 justify-content-center">
+        <div class="row gy-3 justify-content-center">
             <div class="col-5">
-                <div class="p-3 border bg-light">
-                    <h5 class=" text-capitalize text-center">perioperative theatre technology</h5>
-                    <p class=" mb-0 ms-2">
-                        Covers surgical procedures, theatre management, sterilization,
-                        and assisting surgeons in the operating room.
-                    </p>
+                <div class="p-3 border bg-white rounded">
+                    <h5 class=" text-capitalize"> <i class="fa fa-user-doctor me-2"></i>perioperative theatre technology</h5>
                 </div>
             </div>
             <div class="col-5">
-                <div class="p-3 border bg-light">
-                    <h5 class=" text-capitalize text-center">Orthopedics & Trauma Medicine</h5>
-                    <p class=" mb-0">
-                        Focuses on musculoskeletal injuries, trauma care,
-                        orthopedic conditions, and rehabilitation techniques.
-                    </p>
+                <div class="p-3 border bg-white rounded">
+                    <h5 class=" text-capitalize"> <i class="fa fa-bone me-2"></i>Orthopedics & Trauma Medicine</h5>
+                   
                 </div>
             </div>
             <div class="col-5">
-                <div class="p-3 border bg-light">
-                    <h5 class=" text-capitalize text-center">Certified Nurse Assistant</h5>
-                    <p class=" mb-0 ms-2">
-                        Trains students in patient care skills, nursing procedures,
-                        and healthcare support techniques.
+                <div class="p-3 border bg-white rounded">
+                    <h5 class=" text-capitalize"><i class="fa fa-stethoscope me-2"></i>Certified Nurse Assistant</h5>
+    
                 </div>
             </div>
             <div class="col-5">
-                <div class="p-3 border bg-light">
-                    <h5 class=" text-capitalize text-center">Nursing</h5>
-                    <p class=" mb-0">
-                        Students will develop the professional judgment and technical expertise needed for diverse
-                        healthcare environments.
-                    </p>
+                <div class="p-3 border bg-white rounded">
+                    <h5 class=" text-capitalize"> <i class="fa fa-user-nurse me-2"></i>Nursing</h5>
                 </div>
             </div>
             <div class="col-5">
-                <div class="p-3 border bg-light">
-                    <h5 class=" text-capitalize text-center">Computer packages</h5>
-                    <p class=" mb-0">
-                        Learn essential computer applications including MS Office,
-                        typing, data entry, and basic ICT skills.
-                    </p>
+                <div class="p-3 border bg-white rounded">
+                    <h5 class=" text-capitalize"> <i class="fa fa-laptop-medical me-2"></i>Computer packages </h5>
                 </div>
             </div>
+            
         </div>
     </div>
     <div class="text-center mt-3">

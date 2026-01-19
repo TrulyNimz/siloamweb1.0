@@ -383,9 +383,9 @@
                                         data-bs-dismiss="modal"></button>
 
                                     <h6 class="fw-bold mb-1">Lovenda Cherono</h6>
-                                    <p class="small text-muted mb-1">School Nurse</p>
+                                    <p class="small text-muted mb-1">Trainer & Resident Clinical Officer</p>
                                     <p class="small mb-0">
-                                        Trainer and Resident clinical officer at Siloam Hospital College of Health Sciences,
+                                        Trainer and Resident Clinical Officer at Siloam Hospital College of Health Sciences,
                                         I integrate comprehensive patient care with clinical education and mentorship.
                                         Guided by the institution’s mission to empower students with innovative healthcare
                                         education, I am committed to developing expertise, compassion, and leadership among
@@ -429,7 +429,14 @@
                                     <h6 class="fw-bold mb-1">Rency Cherono</h6>
                                     <p class="small text-muted mb-1">Tutor</p>
                                     <p class="small mb-0">
-                                        Dedicated tutor with experience in healthcare education and student mentorship.
+                                        Dedicated tutor with experience in healthcare education and student mentorship. I
+                                        specialize in bridging the gap between classroom instruction and clinical practice,
+                                        I draw upon
+                                        my direct healthcare experience to offer students relevant, real-world context. I
+                                        consistently highlight the significance of therapeutic communication, patient
+                                        advocacy, and precise attention to detail throughout my teaching. This applied
+                                        approach prepares students not only for academic assessments but also equips them to
+                                        deliver compassionate, evidence-based care across varied healthcare environments.
                                     </p>
 
                                 </div>
