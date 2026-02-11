@@ -4,7 +4,8 @@ nixPkgs = ["php82", "php82Extensions.pdo_pgsql", "php82Extensions.pgsql", "php82
 [phases.install]
 cmds = [
     "composer install --no-dev --optimize-autoloader",
-    "npm ci"
+    "npm ci",
+    "cp .env.example .env"
 ]
 
 [phases.build]
@@ -13,4 +14,4 @@ cmds = [
 ]
 
 [start]
-cmd = "php artisan migrate --force && php artisan config:cache && php artisan route:cache && php artisan view:cache && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"
+cmd = "php artisan migrate --force && php artisan route:cache && php artisan view:cache && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"

@@ -19,6 +19,9 @@ WORKDIR /var/www/html
 # Copy project
 COPY . .
 
+# Ensure .env exists (Railway injects real values as env vars at runtime)
+RUN cp .env.example .env
+
 # Install dependencies
 RUN composer install --no-dev --optimize-autoloader
 RUN npm install && npm run build
@@ -33,10 +36,9 @@ RUN chmod -R 775 storage bootstrap/cache \
 ENV PORT=8000
 EXPOSE ${PORT}
 
-# Start: cache config, migrate, then serve on Railway's PORT
-CMD php artisan config:cache \
- && php artisan route:cache \
+# Start: migrate then serve (no config:cache so runtime env vars are used)
+CMD php artisan migrate --force \
+ && php artisan storage:link 2>/dev/null; \
+    php artisan route:cache \
  && php artisan view:cache \
- && php artisan migrate --force \
- && php artisan storage:link \
  && php artisan serve --host=0.0.0.0 --port=${PORT}
