@@ -27,6 +27,7 @@ return [
     'last_name' => 'Jina la Mwisho',
     'message' => 'Ujumbe',
     'subject' => 'Mada',
+    'password' => 'Nenosiri',
 
     // Status Messages
     'loading' => 'Inapakia...',

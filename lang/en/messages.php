@@ -27,6 +27,7 @@ return [
     'last_name' => 'Last Name',
     'message' => 'Message',
     'subject' => 'Subject',
+    'password' => 'Password',
 
     // Status Messages
     'loading' => 'Loading...',
