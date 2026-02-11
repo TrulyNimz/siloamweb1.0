@@ -29,12 +29,14 @@ RUN chmod -R 775 storage bootstrap/cache \
     && touch storage/logs/laravel.log \
     && chmod -R 775 storage/logs
 
-# Expose Render port
-EXPOSE 10000
+# Railway uses dynamic PORT env variable
+ENV PORT=8000
+EXPOSE ${PORT}
 
-# Start script: migrate, seed, link storage, serve
+# Start: cache config, migrate, then serve on Railway's PORT
 CMD php artisan config:cache \
+ && php artisan route:cache \
+ && php artisan view:cache \
  && php artisan migrate --force \
- && php artisan db:seed --class=CoursesSeeder --force \
  && php artisan storage:link \
- && php artisan serve --host=0.0.0.0 --port=10000
+ && php artisan serve --host=0.0.0.0 --port=${PORT}

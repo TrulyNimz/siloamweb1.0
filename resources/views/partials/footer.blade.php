@@ -32,7 +32,7 @@
         <div class="mt-3">
           <a href="https://www.facebook.com/profile.php?id=61581782424060" target="_blank" rel="noopener noreferrer" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.tiktok.com/@siloamcollege" target="_blank" rel="noopener norreferrer" class="text-dark me-3"><i class="fab fa-tiktok"></i></a>
-          <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-dark me-3"><i class="fab fa-x-twitter"></i></a>
           <a href="#" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
           <a href="#" class="text-dark me-3"><i class="fab fa-linkedin"></i></a>
         </div>

@@ -34,11 +34,37 @@ Route::get('/school/team', [HomeController::class, 'team'])->name('school.team')
 Route::get('/admin/payment', [HomeController::class, 'payment'])->name('admin.payment');
 Route::get('/partials/contacts', [SchoolController::class, 'contacts'])->name('partials.contacts');
 Route::get('/school/career', [SchoolController::class, 'career'])->name('school.career');
-// show form
+// Application form
 Route::get('/academic/application', [ApplicationController::class, 'create'])->name('academic.application');
-// handle form submission
-Route::post('/apply', [ApplicationController::class, 'store'])->name('academic.application.store');
+Route::post('/apply', [ApplicationController::class, 'store'])
+    ->middleware('throttle:application')
+    ->name('academic.application.store');
+
+// Contact form
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.form');
-Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+Route::post('/contact', [ContactController::class, 'send'])
+    ->middleware('throttle:contact')
+    ->name('contact.send');
+
+// Student login
 Route::get('/student/login', [HomeController::class, 'login'])->name('student.login');
-Route::post('/student/login', [ContactController::class, 'login'])->name('login');
+Route::post('/student/login', [ContactController::class, 'login'])
+    ->middleware('throttle:login')
+    ->name('login');
+
+// Locale switching route
+Route::get('/locale/{locale}', function (string $locale) {
+    if (in_array($locale, ['en', 'sw'])) {
+        session(['locale' => $locale]);
+    }
+    return redirect()->back();
+})->name('locale.switch');
+
+// Health check endpoint for monitoring (returns 200 OK if app is healthy)
+Route::get('/health', function () {
+    return response()->json([
+        'status' => 'ok',
+        'timestamp' => now()->toIso8601String(),
+        'environment' => app()->environment(),
+    ]);
+})->name('health.check');

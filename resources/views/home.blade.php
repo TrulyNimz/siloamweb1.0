@@ -12,7 +12,3 @@
 @include('partials.about-us')
 @include('contact')
 @include('partials.gallery')
-    <script
-      src="../assets/dist/js/bootstrap.bundle.min.js"
-      class="astro-vvvwv3sm"
-    ></script>

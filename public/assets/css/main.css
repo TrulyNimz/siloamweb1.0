@@ -23,6 +23,13 @@
 .scroll-item {
   position: relative;
   flex: 0 0 auto;
+  transition: transform 0.3s ease, z-index 0s;
+  z-index: 1;
+}
+
+.scroll-item:hover {
+  transform: scale(1.15);
+  z-index: 10;
 }
 
 .scroll-item img {
@@ -32,6 +39,11 @@
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   display: block;
+  transition: box-shadow 0.3s ease;
+}
+
+.scroll-item:hover img {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
 /* Caption overlay */

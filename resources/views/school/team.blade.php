@@ -22,7 +22,7 @@
             <!-- Card 1 -->
             <div class="col-md-5">
                 <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('assets/images/Cha.jpg') }}" class="card-img-top" alt="Siloam">
+                    <img src="{{ asset('assets/images/Cha.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img" alt="Chairman">
                     <div class="card-body text-center">
                         <h4 class="card-title">Hon. Frankline Bett</h4>
                         <p class="card-text">Chairman</p>
@@ -34,7 +34,7 @@
             <!-- Card 2 -->
             <div class="col-md-5">
                 <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('assets/images/Dir.jpg') }}" class="card-img-top" alt="Siloam">
+                    <img src="{{ asset('assets/images/Dir.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img" alt="Director">
                     <div class="card-body text-center">
                         <h4 class="card-title">Miss Cheruto</h4>
                         <p class="card-text">Director</p>
