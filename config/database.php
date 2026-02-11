@@ -2,6 +2,16 @@
 
 use Illuminate\Support\Str;
 
+/*
+|--------------------------------------------------------------------------
+| Parse DATABASE_URL for PaaS platforms (Railway, Heroku, Render, etc.)
+|--------------------------------------------------------------------------
+| Explicitly extract components from DATABASE_URL so we never fall back
+| to localhost defaults when deploying to cloud platforms.
+*/
+$databaseUrl = env('DATABASE_URL');
+$dbUrlParts = $databaseUrl ? parse_url($databaseUrl) : [];
+
 return [
 
     /*
@@ -66,11 +76,11 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => $dbUrlParts['host'] ?? env('DB_HOST', '127.0.0.1'),
+            'port' => (string) ($dbUrlParts['port'] ?? env('DB_PORT', '5432')),
+            'database' => isset($dbUrlParts['path']) ? ltrim($dbUrlParts['path'], '/') : env('DB_DATABASE', 'forge'),
+            'username' => $dbUrlParts['user'] ?? env('DB_USERNAME', 'forge'),
+            'password' => isset($dbUrlParts['pass']) ? rawurldecode($dbUrlParts['pass']) : env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,

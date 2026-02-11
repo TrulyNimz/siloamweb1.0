@@ -36,8 +36,10 @@ RUN chmod -R 775 storage bootstrap/cache \
 ENV PORT=8000
 EXPOSE ${PORT}
 
-# Start: migrate then serve (no config:cache so runtime env vars are used)
-CMD php artisan migrate --force \
+# Start: clear stale config, ensure APP_KEY, migrate, then serve
+CMD php artisan config:clear \
+ && php artisan key:generate --force \
+ && php artisan migrate --force \
  && php artisan storage:link 2>/dev/null; \
     php artisan route:cache \
  && php artisan view:cache \
