@@ -53,18 +53,7 @@ Route::post('/student/login', [ContactController::class, 'login'])
     ->name('login');
 
 // Locale switching route
-Route::get('/locale/{locale}', function (string $locale) {
-    if (in_array($locale, ['en', 'sw'])) {
-        session(['locale' => $locale]);
-    }
-    return redirect()->back();
-})->name('locale.switch');
+Route::get('/locale/{locale}', [HomeController::class, 'switchLocale'])->name('locale.switch');
 
 // Health check endpoint for monitoring (returns 200 OK if app is healthy)
-Route::get('/health', function () {
-    return response()->json([
-        'status' => 'ok',
-        'timestamp' => now()->toIso8601String(),
-        'environment' => app()->environment(),
-    ]);
-})->name('health.check');
+Route::get('/health', [HomeController::class, 'health'])->name('health.check');
